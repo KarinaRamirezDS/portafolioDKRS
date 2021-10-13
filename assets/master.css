@@ -122,11 +122,17 @@ html{
     padding: 10px;
 }
 #intro h2{
+    
     font-size: 2rem;
     margin-bottom: 20px;
 
 }
+#intro p{
+    padding: 40px;
+    font-size: 26px;
+    margin-bottom: 20px;
 
+}
 /********************Portafoliio Section********************/
 
 #portafolio{

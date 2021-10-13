@@ -1,6 +1,10 @@
 /* Inicio */
-#inicio{
-    width: 820px;
+
+
+#inicio::before{
+
+    width: 100%;
+
 }
 .headings{
     font-size: 1.7rem;
