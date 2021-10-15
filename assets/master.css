@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(144, 168, 195, 0.5);
     position: sticky;
     top: 0;
 
@@ -21,11 +22,15 @@ html{
     display: flex;
     list-style: none;
     margin: 20px 0px;
+
 }
 .navbar ul li{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
+
+    border-radius: 22px;
+    margin: 5px;
 }
 .navbar ul li a{
     text-decoration: none;
@@ -36,7 +41,9 @@ html{
 .navbar ul li a:hover{
     background-color: white;
     color: black;
-    box-shadow: 0 0 10px white;
+    box-shadow: 0 0 8px white;
+    border-radius: 22px;
+    margin: 3px;
 }
 
 /**************Sección de Inicio*************/
@@ -44,7 +51,7 @@ html{
 #inicio{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(244, 202, 224, 0.2);
     height: 840px;
     justify-content: center;
     align-items: center;
@@ -78,17 +85,26 @@ html{
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+    color: white;
 
+}
+.headings1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: black;
 
 }
 .btn{
     padding: 10px 35px;
-    background-color: transparent;
-    border: 1px solid white;
+    background-color: transparent ;
+    border: 1px solid gray;
     color: white;
     outline: none;
     transition: .6s ease;
     border-radius: 1px;
+    border-radius: 25px;
 }
 
 .btn:hover{
@@ -138,7 +154,8 @@ html{
 #portafolio{
     display: flex;
     flex-direction: column;
-    background-color: rgba(100, 182, 172,0.9);
+    /*background-color: rgba(100, 166, 189,0.9);*/
+    background: linear-gradient(to bottom right, #91aec1, #bfd7ea);
     color: white;
     align-items: center;
     padding: 20px;
@@ -173,13 +190,13 @@ html{
     flex-direction: column;
     width: 350px;
     height: 450px;
-    border: 1px solid black;
+    border: 1px solid #508CA4;
     margin: 10px;
     align-items: center;
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient(to top, rgb(192, 253, 251) 50%, white 50%);
+    background: linear-gradient(to top, rgb(80, 140, 164) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8s;
 }
@@ -202,9 +219,10 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: rgba(100, 182, 172, 0.9);
+    background-color: rgba(80, 140, 164, 0.9);
     color:white ;
     padding: 20px;
+    font-family: 'Archivo Black', sans-serif;
 }
 .form{
     display: flex;
@@ -212,6 +230,7 @@ html{
     box-sizing: border-box;
     align-items: center;
     margin: 20px 0px;
+    
 
 }
 .input{
@@ -220,6 +239,7 @@ html{
     width: 30%;
     border: none;
     outline: none;
+    border-radius: 26px;
 }
 #msg{
     width: 20%;
@@ -227,6 +247,7 @@ html{
     margin: 15px;
     border: none;
     outline: none;
+    border-radius: 26px;
 }
 #send{
     padding: 10px;
@@ -234,8 +255,10 @@ html{
     margin: 40px;
     border: none;
     outline: none;
+    border-radius: 26px;
 }
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+    border-radius: 26px;
 }
